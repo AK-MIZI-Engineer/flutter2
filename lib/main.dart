@@ -77,6 +77,7 @@ class _FooAppState extends State<FooApp> {
     // print(dummy);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text("My First Application"),
